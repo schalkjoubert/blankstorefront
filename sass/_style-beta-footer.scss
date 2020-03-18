@@ -1,0 +1,46 @@
+/* === FOOTER === */
+.site-footer {
+	text-align: center;
+	padding: 0 10px 10px 10px;
+  	background: $prime;
+  	margin-top: -1px;
+}
+
+.grid-credit {
+	display: grid;
+	color: $tl;
+}
+
+.grid-credit a {
+	color: $tl !important;
+}
+
+.grid-credit .box {
+  text-align: center;
+}
+
+.site-footer .fab {
+  font-size: 2em;
+  padding: 1em 0.8em;
+  color: $tl !important;
+}
+
+@media (min-width: 768px) {
+  .grid-credit {
+    grid-template-columns: 1fr 1fr; }
+  .grid-credit .lh {
+    text-align: left; }
+  .grid-credit .rh {
+    text-align: right; 
+    font-size:0.9em;
+    } }
+
+    .site-footer a:not(.button) {
+    text-decoration: none !important;
+  }
+
+
+
+.site-footer {
+  background: $prime;
+}

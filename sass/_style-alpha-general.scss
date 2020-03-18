@@ -1,0 +1,37 @@
+/* === GENERAL === */
+a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus {
+    outline-color: transparent;
+}
+
+h2 + h3, .beta + h3 {
+    border-width: 0;
+    padding-top: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+/*	font-family: dunkley;*/
+}
+
+
+h1 {
+    font-size: 1.9em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.3em;
+}
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+p {
+        margin-bottom: 0.6em;
+}

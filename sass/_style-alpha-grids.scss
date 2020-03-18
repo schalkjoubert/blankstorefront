@@ -1,0 +1,32 @@
+/* === GRIDS === */
+.grid-two {
+    display: grid;
+    grid-gap: 2em;
+}
+
+.grid-three {
+    display: grid;
+    grid-gap: 2em;
+}
+
+.grid-four {
+    display: grid;
+    grid-gap: 2em;
+}
+
+.box {
+	
+}
+
+
+@media (min-width: 768px) {
+    .grid-two {
+    	grid-template-columns: 1fr 1fr;
+	}
+    .grid-three {
+    	grid-template-columns: 1fr 1fr 1fr;
+	}
+	.grid-four {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
