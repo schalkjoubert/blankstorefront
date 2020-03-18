@@ -1,0 +1,14 @@
+/*
+Theme Name:   	Store Blank
+Theme URI:    	https://thissideupmnedia.com
+Author:       	Schalk Joubert
+Author URI:     https://thissideupmnedia.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+*/
+
+@import "assets/css/style.css"
